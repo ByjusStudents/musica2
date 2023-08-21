@@ -1,0 +1,33 @@
+body{
+    background-image: url("background\ \(1\).jpg")
+}
+#div1{
+    background-color: aqua;
+}
+#div2{
+    float: left;
+}
+#div3{
+    float: right;
+}
+img{
+    width: 250px;
+}
+button{
+    width: 200px;
+    height: 50px;
+}
+canvas{
+    border: 5px solid white;
+    border-radius:20px;
+    animation-name: example;
+
+    animation-duration: 3s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from {box-shadow: 1px 1px 38px rgb(blue);}
+    to {box-shadow: 1px 1px 38px rgb(green);}
+}
+    
